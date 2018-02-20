@@ -1,0 +1,97 @@
+body {
+    background-color: #f2f2f2;
+    font-size: 16px;
+    color: #555;
+}
+.centered {
+    text-align: center;
+}
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+.form-label {
+    float: left;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.field {
+    clear: both;
+    text-align: right;
+}
+
+.Done {
+    color: #00cc00;
+}
+
+.Nope {
+    color: #ff0000;
+}
+
+hr.style2 {
+    border-top: 3px double #8c8b8b;
+}
+
+label.msg {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+.form-textarea {
+    resize: vertical;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    max-height: 40px;
+    overflow: hidden;
+    border-left: 2px solid #d2bf94;
+    padding: 10px 20px;
+    color: #888;
+    background-color: #eee;
+    -moz-transition: color 1s, background-color 1s;
+    -webkit-transition: color 1s, background-color 1s;
+    -o-transition: color 1s, background-color 1s;
+    transition: color 1s, background-color 1s; 
+}
+
+.form-textarea:focus {
+    resize: vertical;
+    overflow: auto;
+    max-height: 500px;
+    color: #000;
+    background-color: #fff;  
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd; /* Gray */
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.pagination span.disabled {
+  color: #DDD;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd; /* Gray */
+}
+
+.pagination span.current {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd; /* Gray */
+  background-color: #f44336;
+}
+.pagination span.threeDots {
+  float: left;
+}
